@@ -1,0 +1,73 @@
+.PayCode {
+    margin: 20px auto;
+    position: relative;
+    box-shadow: 1px 1px 1px #ccc;
+    border: 1px solid #D3D3D3;
+    background-color: #FFF;
+    border-radius: 4px;
+}
+.PayCode:after {
+	content: '';
+	clear: both;
+	display: table;
+}
+.PayIMG {
+	padding: 10px;
+	position: relative;
+}
+.PayIMG .WePay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 38px;
+    height: 38px;
+    margin-left: -19px;
+    margin-top: -19px;
+    background-color: #FFF;
+    padding: 3px;
+}
+.PayIMG img {
+	border-radius: 4px;
+	width: 100%;
+	height: 100%;
+	margin-bottom: -15px;
+}
+.Paytext {
+	text-align: center;
+    padding: 0 20px;
+    margin: 15px 0;
+}
+.Paytext i {
+	font-size: 20px;
+    color: #F9B842;
+    float: left;
+    vertical-align: middle;
+    line-height: 1;
+}
+.Paytext .icon-saoyisao {
+	font-size: 38px;
+}
+.Paytext .icon-dengdai {
+	font-size: 38px;
+}
+
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1481445048199'); /* IE9*/
+  src: url('iconfont.eot?t=1481445048199#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('iconfont.woff?t=1481445048199') format('woff'), /* chrome, firefox */
+  url('iconfont.ttf?t=1481445048199') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('iconfont.svg?t=1481445048199#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size: 15px;
+  font-style:normal;
+  vertical-align: middle;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-chenggong:before { content: "\e625"; }
+.icon-dengdai:before { content: "\e62a"; }
+.icon-saoyisao:before { content: "\e638"; }
